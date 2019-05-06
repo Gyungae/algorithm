@@ -1,0 +1,26 @@
+백준10039
+
+score=[]
+
+score.append(int(input()))
+score.append(int(input()))
+score.append(int(input()))
+score.append(int(input()))
+score.append(int(input()))
+
+i: int=0
+
+while i<=4:
+    if score[i]<=40:
+        score[i]=40
+        i+=1
+    else:
+        i+=1
+
+x=0
+
+for i in score:
+    x+=i
+
+avg= x/5
+print("%d" % avg)
