@@ -1,0 +1,7 @@
+https://www.acmicpc.net/problem/2163
+
+N, M = input("").split()
+N=int(N)
+M=int(M)
+choco = (N-1)+(M-1)*N
+print("%d" % choco)
