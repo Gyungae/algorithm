@@ -1,0 +1,16 @@
+a=1
+Num=[]
+while a>0:
+    a,b=input().split()
+    a=int(a)
+    b=int(b)
+    if a==0:
+        break
+    elif a>b:
+        c="Yes"
+        Num.append(c)
+    else:
+        c="No"
+        Num.append(c)
+
+print('\n'.join(Num))

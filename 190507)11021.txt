@@ -1,0 +1,34 @@
+case= input()
+case= int(case)
+
+i=0
+cases=[]
+
+
+while i<=(case-1):
+    a,b=input("").split()
+    a=int(a)
+    b=int(b)
+    cases.append(a+b)
+    i+=1
+
+
+print("Case #1:",cases[0])
+print("Case #2:",cases[1])
+print("Case #3:",cases[2])
+print("Case #4:",cases[3])
+print("Case #5:",cases[4])
+
+
+
+
+...
+import sys
+
+
+read = sys.stdin.readline
+t = int(read())
+for i in range(t):
+    ab = [int(x) for x in read().split()]
+    print("Case #{}: {}".format(i+1, ab[0]+ab[1]))..
+...

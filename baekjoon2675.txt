@@ -1,0 +1,21 @@
+T=input()
+T=int(T)
+
+a,b=input().split()
+a=int(a)
+string=len(b)
+
+i=1
+c=1
+d=1
+
+
+if i<=a:
+    
+    
+
+
+°á°ú°ª
+a
+ab
+abc
